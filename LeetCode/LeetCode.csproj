@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LeetCode.lc70</StartupObject>
+    <StartupObject>LeetCode.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,8 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="lc121.cs" />
-    <Compile Include="lc53.cs" />
-    <Compile Include="lc70.cs" />
+    <Compile Include="lc169.cs" />
+    <Compile Include="lc198.cs" />
+    <Compile Include="lc303.cs" />
+    <Compile Include="lc053.cs" />
+    <Compile Include="lc070.cs" />
+    <Compile Include="lc746.cs" />
+    <Compile Include="lc122.cs" />
+    <Compile Include="lc455.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
