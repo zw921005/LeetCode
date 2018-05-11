@@ -8,16 +8,21 @@ namespace LeetCode
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            //Program p = new Program();
+            //p.Test();
+
+            lc66 lc = new lc66();
+            lc.Test();
+
+            Console.Read();
+        }
+
         public void Test()
         {
 
         }
 
-        static void Main(string[] args)
-        {
-            lc496 lc = new lc496();
-            lc.Test();
-            Console.Read();
-        }
     }
 }

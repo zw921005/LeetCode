@@ -8,7 +8,7 @@ namespace LeetCode
 {
     static class Helper
     {
-        static public void Print(this int[] nums)
+        static public void Print(this IEnumerable<int> nums)
         {
             Console.WriteLine("[" + string.Join(",", nums) + "]");
         }
@@ -16,6 +16,19 @@ namespace LeetCode
         static public void Print(this int num)
         {
             Console.WriteLine(num);
+        }
+
+        static public bool IsNumeric(string str)
+        {
+            try
+            {
+                Int32 num =  Convert.ToInt32(str);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="helper.cs" />
+    <Compile Include="lc001.cs" />
+    <Compile Include="lc027.cs" />
     <Compile Include="lc121.cs" />
     <Compile Include="lc155.cs" />
     <Compile Include="lc169.cs" />
@@ -52,10 +54,14 @@
     <Compile Include="lc020.cs" />
     <Compile Include="lc225.cs" />
     <Compile Include="lc232.cs" />
+    <Compile Include="lc026.cs" />
     <Compile Include="lc303.cs" />
     <Compile Include="lc053.cs" />
     <Compile Include="lc070.cs" />
+    <Compile Include="lc35.cs" />
     <Compile Include="lc496.cs" />
+    <Compile Include="lc66.cs" />
+    <Compile Include="lc682.cs" />
     <Compile Include="lc746.cs" />
     <Compile Include="lc122.cs" />
     <Compile Include="lc455.cs" />
