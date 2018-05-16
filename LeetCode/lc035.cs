@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class lc35
+    class lc035
     {
         public int SearchInsert(int[] nums, int target)
         {
