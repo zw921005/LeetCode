@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class lc001
+    public class lc001
     {
         public void Test()
         {
