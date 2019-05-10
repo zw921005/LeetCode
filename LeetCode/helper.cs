@@ -8,14 +8,47 @@ namespace LeetCode
 {
     static public class Helper
     {
+        static public void Print(this int num) 
+        {
+            Console.WriteLine(num);
+        }
+
         static public void Print(this IEnumerable<int> nums)
         {
             Console.WriteLine("[" + string.Join(",", nums) + "]");
         }
 
-        static public void Print(this int num)
+        static public void Print(this IEnumerable<IEnumerable<int>> nums)
+        {
+            foreach (IEnumerable<int> num in nums)
+            {
+                Console.WriteLine("[" + string.Join(",", num) + "]");
+            }
+        }
+
+        static public void Print0<T>(this T num) where T : struct
         {
             Console.WriteLine(num);
+        }
+
+        static public void Print1<T>(this IEnumerable<T> nums) where T : struct
+        {
+            Console.WriteLine("[" + string.Join(",", nums) + "]");
+        }
+
+        static public void Print2<T>(this IEnumerable<IEnumerable<T>> nums) where T : struct
+        {
+            foreach (IEnumerable<T> num in nums)
+            {
+                Console.WriteLine("[" + string.Join(",", num) + "]");
+            }
+        }
+
+        static public void Swap<T>(ref T a, ref T b)
+        {
+            T t = a;
+            a = b;
+            b = t;
         }
 
         static public bool IsNumeric(string str)
