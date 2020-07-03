@@ -13,9 +13,6 @@ namespace LeetCode
             //Program p = new Program();
             //p.Test();
 
-            lc118 lc = new lc118();
-            lc.Test();
-
             Console.Read();
         }
 

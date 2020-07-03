@@ -44,7 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Code\lc003.cs" />
+    <Compile Include="Code\lc023.cs" />
+    <Compile Include="Code\lc108.cs" />
+    <Compile Include="Code\lc378.cs" />
     <Compile Include="helper.cs" />
     <Compile Include="Code\lc001.cs" />
     <Compile Include="Code\lc027.cs" />
