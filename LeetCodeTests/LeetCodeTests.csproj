@@ -57,7 +57,10 @@
   <ItemGroup>
     <Compile Include="Code\lc001Tests.cs" />
     <Compile Include="Code\lc003Tests.cs" />
+    <Compile Include="Code\lc063Tests.cs" />
+    <Compile Include="Code\lc063_1Tests.cs" />
     <Compile Include="Code\lc378Tests.cs" />
+    <Compile Include="mianshi\lc16_11Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
