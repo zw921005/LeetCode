@@ -20,7 +20,25 @@ namespace LeetCode.Code
                         break;
                     }
                 }
-                location[T[i]] = i;
+                for (int j = 31; j <= T[i]; j++) {
+                    location[j] = i;
+                }
+            }
+
+            return result;
+        }
+
+        public int[] dailyTemperatures1(int[] T)
+        {
+            int[] result = new int[T.Length];
+
+            Stack<int> stack = new Stack<int>();
+            for (int i = 0; i < T.Length; i++) {
+                while (stack.Count > 0 && T[stack.Peek()] < T[i]) {
+                    int pop = stack.Pop();
+                    result[pop] = i - pop;
+                }
+                stack.Push(i);
             }
 
             return result;
