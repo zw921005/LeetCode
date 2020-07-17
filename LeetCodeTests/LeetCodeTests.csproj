@@ -65,6 +65,7 @@
     <Compile Include="Code\lc309Tests.cs" />
     <Compile Include="Code\lc378Tests.cs" />
     <Compile Include="Code\lc449Tests.cs" />
+    <Compile Include="Code\lc739Tests.cs" />
     <Compile Include="Code\lc752Tests.cs" />
     <Compile Include="mianshi\lc16_11Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
