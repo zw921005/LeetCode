@@ -61,9 +61,11 @@
     <Compile Include="Code\lc063_1Tests.cs" />
     <Compile Include="Code\lc096Tests.cs" />
     <Compile Include="Code\lc120Tests.cs" />
+    <Compile Include="Code\lc279Tests.cs" />
     <Compile Include="Code\lc309Tests.cs" />
     <Compile Include="Code\lc378Tests.cs" />
     <Compile Include="Code\lc449Tests.cs" />
+    <Compile Include="Code\lc752Tests.cs" />
     <Compile Include="mianshi\lc16_11Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

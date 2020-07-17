@@ -10,7 +10,7 @@ namespace LeetCode
     {
         public void Test()
         {
-
+            
         }
 
         public int[] TwoSum(int[] nums, int target)

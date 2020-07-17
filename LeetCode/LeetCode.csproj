@@ -60,13 +60,17 @@
     <Compile Include="Code\lc120.cs" />
     <Compile Include="Code\lc144.cs" />
     <Compile Include="Code\lc145.cs" />
+    <Compile Include="Code\lc200.cs" />
     <Compile Include="Code\lc208.cs" />
     <Compile Include="Code\lc211.cs" />
     <Compile Include="Code\lc236.cs" />
+    <Compile Include="Code\lc279.cs" />
     <Compile Include="Code\lc309.cs" />
     <Compile Include="Code\lc350.cs" />
     <Compile Include="Code\lc378.cs" />
     <Compile Include="Code\lc449.cs" />
+    <Compile Include="Code\lc622.cs" />
+    <Compile Include="Code\lc752.cs" />
     <Compile Include="Data\TreeNode.cs" />
     <Compile Include="Data\Trie.cs" />
     <Compile Include="explore\binaryTree\digui\HasPathSumClass.cs" />
