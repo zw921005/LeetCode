@@ -8,6 +8,11 @@ namespace LeetCode.Code
 {
     class lc200
     {
+        /// <summary>
+        /// BFS
+        /// </summary>
+        /// <param name="grid"></param>
+        /// <returns></returns>
         public int NumIslands(char[][] grid)
         {
             if (grid == null || grid.Length == 0)
@@ -50,6 +55,51 @@ namespace LeetCode.Code
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// DFS
+        /// </summary>
+        /// <param name="grid"></param>
+        /// <returns></returns>
+        public int NumIslands1(char[][] grid)
+        {
+            if (grid == null || grid.Length == 0)
+                return 0;
+
+            int result = 0;
+            int nr = grid.Length;
+            int nc = grid[0].Length;
+
+            for (int row = 0; row < nr; row++) {
+                for (int col = 0; col < nc; col++) {
+                    if (grid[row][col] == '1') {
+                        result += 1;
+                        DFS(grid, row, col);
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public void DFS(char[][] grid, int row, int col)
+        {
+            grid[row][col] = '0';
+            int nr = grid.Length;
+            int nc = grid[0].Length;
+            if (row - 1 >= 0 && grid[row - 1][col] == '1') {
+                DFS(grid, row - 1, col);
+            }
+            if (row + 1 < nr && grid[row + 1][col] == '1') {
+                DFS(grid, row + 1, col);
+            }
+            if (col - 1 >= 0 && grid[row][col - 1] == '1') {
+                DFS(grid, row, col - 1);
+            }
+            if (col + 1 < nc && grid[row][col + 1] == '1') {
+                DFS(grid, row, col + 1);
+            }
         }
     }
 }
