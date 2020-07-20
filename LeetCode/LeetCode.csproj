@@ -58,8 +58,10 @@
     <Compile Include="Code\lc116.cs" />
     <Compile Include="Code\lc117.cs" />
     <Compile Include="Code\lc120.cs" />
+    <Compile Include="Code\lc133.cs" />
     <Compile Include="Code\lc144.cs" />
     <Compile Include="Code\lc145.cs" />
+    <Compile Include="Code\lc167.cs" />
     <Compile Include="Code\lc200.cs" />
     <Compile Include="Code\lc208.cs" />
     <Compile Include="Code\lc211.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Code\lc622.cs" />
     <Compile Include="Code\lc739.cs" />
     <Compile Include="Code\lc752.cs" />
+    <Compile Include="Data\graph\Node.cs" />
     <Compile Include="Data\TreeNode.cs" />
     <Compile Include="Data\Trie.cs" />
     <Compile Include="explore\binaryTree\digui\HasPathSumClass.cs" />
