@@ -9,13 +9,16 @@ using System.Threading.Tasks;
 namespace LeetCode.Code.Tests
 {
     [TestClass()]
-    public class lc739Tests
+    public class lc150Tests
     {
         [TestMethod()]
-        public void dailyTemperaturesTest()
+        public void EvalRPNTest()
         {
-            var obj = new lc739();
-            obj.dailyTemperatures1(new int[] { 73, 74, 75, 71, 69, 72, 76, 73 });
+            var data = new string[] { "4", "13", "5", "/", "+" };
+            var obj = new lc150();
+            if (obj.EvalRPN(data) != 6) {
+                Assert.Fail();
+            };
         }
     }
 }
