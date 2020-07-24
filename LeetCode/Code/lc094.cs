@@ -38,15 +38,17 @@ namespace LeetCode.Code
         public IList<int> InorderTraversal1(TreeNode root)
         {
             var result = new List<int>();
-            if (root == null) return result;
             var stack = new Stack<TreeNode>();
-            stack.Push(root);
+            var cur = root;
 
-            while (stack.Count > 0) {
-                var node = stack.Pop();
-                if (node.left != null) stack.Push(node.left);
-                result.Add(node.val);
-                if (node.right != null) stack.Push(node.right);
+            while (cur != null || stack.Count > 0) {
+                while (cur != null) {
+                    stack.Push(cur);
+                    cur = cur.left;
+                }
+                cur = stack.Pop();
+                result.Add(cur.val);
+                cur = cur.right;
             }
 
             return result;
