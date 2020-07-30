@@ -54,6 +54,7 @@
     <Compile Include="Code\lc096.cs" />
     <Compile Include="Code\lc102.cs" />
     <Compile Include="Code\lc1025.cs" />
+    <Compile Include="Code\lc104.cs" />
     <Compile Include="Code\lc105.cs" />
     <Compile Include="Code\lc106.cs" />
     <Compile Include="Code\lc108.cs" />
