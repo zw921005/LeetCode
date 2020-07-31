@@ -67,6 +67,7 @@
     <Compile Include="Code\lc145.cs" />
     <Compile Include="Code\lc167.cs" />
     <Compile Include="Code\lc150.cs" />
+    <Compile Include="Code\lc1689.cs" />
     <Compile Include="Code\lc200.cs" />
     <Compile Include="Code\lc208.cs" />
     <Compile Include="Code\lc211.cs" />
