@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Code\lc001Tests.cs" />
     <Compile Include="Code\lc003Tests.cs" />
+    <Compile Include="Code\lc0415Tests.cs" />
     <Compile Include="Code\lc063Tests.cs" />
     <Compile Include="Code\lc063_1Tests.cs" />
     <Compile Include="Code\lc064Tests.cs" />
