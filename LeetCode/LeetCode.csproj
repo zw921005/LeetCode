@@ -66,13 +66,16 @@
     <Compile Include="Code\lc120.cs" />
     <Compile Include="Code\lc133.cs" />
     <Compile Include="Code\lc144.cs" />
+    <Compile Include="Code\lc1442.cs" />
     <Compile Include="Code\lc145.cs" />
     <Compile Include="Code\lc167.cs" />
     <Compile Include="Code\lc150.cs" />
     <Compile Include="Code\lc1689.cs" />
+    <Compile Include="Code\lc1738.cs" />
     <Compile Include="Code\lc200.cs" />
     <Compile Include="Code\lc208.cs" />
     <Compile Include="Code\lc211.cs" />
+    <Compile Include="Code\lc215.cs" />
     <Compile Include="Code\lc236.cs" />
     <Compile Include="Code\lc279.cs" />
     <Compile Include="Code\lc309.cs" />
@@ -84,6 +87,7 @@
     <Compile Include="Code\lc449.cs" />
     <Compile Include="Code\lc494.cs" />
     <Compile Include="Code\lc622.cs" />
+    <Compile Include="Code\lc692.cs" />
     <Compile Include="Code\lc739.cs" />
     <Compile Include="Code\lc752.cs" />
     <Compile Include="Data\graph\Node.cs" />
