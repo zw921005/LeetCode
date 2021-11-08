@@ -79,12 +79,16 @@
     <Compile Include="Code\lc236.cs" />
     <Compile Include="Code\lc279.cs" />
     <Compile Include="Code\lc309.cs" />
+    <Compile Include="Code\lc322.cs" />
+    <Compile Include="Code\lc338.cs" />
     <Compile Include="Code\lc343.cs" />
     <Compile Include="Code\lc350.cs" />
     <Compile Include="Code\lc378.cs" />
     <Compile Include="Code\lc392.cs" />
     <Compile Include="Code\lc394.cs" />
+    <Compile Include="Code\lc416.cs" />
     <Compile Include="Code\lc449.cs" />
+    <Compile Include="Code\lc474.cs" />
     <Compile Include="Code\lc494.cs" />
     <Compile Include="Code\lc622.cs" />
     <Compile Include="Code\lc692.cs" />
@@ -127,6 +131,7 @@
     <Compile Include="mianshi\lc16_11.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sort\FastSort.cs" />
     <Compile Include="Test\t1.cs" />
     <Compile Include="Test\t2.cs" />
     <Compile Include="Test\t3.cs" />
