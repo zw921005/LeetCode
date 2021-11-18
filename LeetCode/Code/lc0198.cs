@@ -33,45 +33,5 @@ namespace LeetCode
 
             return s1 > s0 ? s1 : s0;
         }
-
-        //int[] cache = new int[1000];
-        //bool flag = false;
-        //public int Rob(int[] nums)
-        //{
-        //    int result;
-        //    if (flag == false && nums.All(n => n == 0))
-        //    {
-        //        return 0;
-        //    }
-        //    flag = true;
-        //    if (cache[nums.Length] != 0)
-        //    {
-        //        return cache[nums.Length];
-        //    }
-        //    else
-        //    {
-        //        if (nums.Length == 0)
-        //        {
-        //            result = 0;
-        //        }
-        //        else if (nums.Length == 1)
-        //        {
-        //            result = nums[0];
-        //        }
-        //        else if (nums.Length == 2)
-        //        {
-        //            result = Math.Max(nums[0], nums[1]);
-        //        }
-        //        else
-        //        {
-        //            int a = Rob(nums.Take(nums.Length - 2).ToArray()) + nums[nums.Length - 1];
-        //            int b = Rob(nums.Take(nums.Length - 3).ToArray()) + nums[nums.Length - 2];
-        //            result = Math.Max(a, b);
-        //        }
-        //        cache[nums.Length] = result;
-        //    }
-
-        //    return result;
-        //}
     }
 }
