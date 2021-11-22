@@ -6,33 +6,26 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class lc53
+    public class lc0053
     {
-        static void Main(string[] args)
+        public int MaxSubArray(int[] nums)
         {
-        }
-
-        public static int MaxSubArray(int[] nums)
-        {
-            if (nums.AsEnumerable().All(i => i < 0))
-            {
-                return nums.Max();
-            }
-
-            int maxSum = 0, sum = 0;
+            int max = nums[0];
+            int dp = 0;
             for (int i = 0; i < nums.Length; i++)
             {
-                sum += nums[i];
-                if (sum > maxSum)
+                dp += nums[i];
+                if (dp > max)
                 {
-                    maxSum = sum;
+                    max = dp;
                 }
-                else if (sum < 0)
+                if (dp < 0)
                 {
-                    sum = 0;
+                    dp = 0;
                 }
             }
-            return maxSum;
+
+            return max;
         }
     }
 }

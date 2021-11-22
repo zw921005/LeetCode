@@ -52,7 +52,9 @@
     <Compile Include="Code\lc0027.cs" />
     <Compile Include="Code\lc0035.cs" />
     <Compile Include="Code\lc0042.cs" />
+    <Compile Include="Code\lc0045.cs" />
     <Compile Include="Code\lc0053.cs" />
+    <Compile Include="Code\lc0055.cs" />
     <Compile Include="Code\lc0063.cs" />
     <Compile Include="Code\lc0064.cs" />
     <Compile Include="Code\lc0066.cs" />
@@ -111,9 +113,11 @@
     <Compile Include="Code\lc0682.cs" />
     <Compile Include="Code\lc0692.cs" />
     <Compile Include="Code\lc0739.cs" />
+    <Compile Include="Code\lc0740.cs" />
     <Compile Include="Code\lc0746.cs" />
     <Compile Include="Code\lc0752.cs" />
     <Compile Include="Code\lc0841.cs" />
+    <Compile Include="Code\lc0918.cs" />
     <Compile Include="Code\lc1025.cs" />
     <Compile Include="Code\lc1137.cs" />
     <Compile Include="Code\lc1442.cs" />

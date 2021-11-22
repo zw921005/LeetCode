@@ -58,6 +58,8 @@
     <Compile Include="Code\lc0001Tests.cs" />
     <Compile Include="Code\lc0003Tests.cs" />
     <Compile Include="Code\lc0042Tests.cs" />
+    <Compile Include="Code\lc0045Tests.cs" />
+    <Compile Include="Code\lc0055Tests.cs" />
     <Compile Include="Code\lc0063Tests.cs" />
     <Compile Include="Code\lc0064Tests.cs" />
     <Compile Include="Code\lc0096Tests.cs" />
@@ -75,7 +77,9 @@
     <Compile Include="Code\lc0449Tests.cs" />
     <Compile Include="Code\lc0474Tests.cs" />
     <Compile Include="Code\lc0739Tests.cs" />
+    <Compile Include="Code\lc0740Tests.cs" />
     <Compile Include="Code\lc0752Tests.cs" />
+    <Compile Include="Code\lc0918Tests.cs" />
     <Compile Include="Code\lc1025Tests.cs" />
     <Compile Include="Code\lc1442Tests.cs" />
     <Compile Include="Code\lc1738Tests.cs" />
