@@ -118,6 +118,7 @@
     <Compile Include="Code\lc0752.cs" />
     <Compile Include="Code\lc0841.cs" />
     <Compile Include="Code\lc0918.cs" />
+    <Compile Include="Code\lc0942.cs" />
     <Compile Include="Code\lc1025.cs" />
     <Compile Include="Code\lc1137.cs" />
     <Compile Include="Code\lc1442.cs" />
