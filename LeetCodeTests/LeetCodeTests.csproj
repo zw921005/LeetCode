@@ -81,6 +81,7 @@
     <Compile Include="Code\lc0752Tests.cs" />
     <Compile Include="Code\lc0918Tests.cs" />
     <Compile Include="Code\lc0942Tests.cs" />
+    <Compile Include="Code\lc0944Tests.cs" />
     <Compile Include="Code\lc1025Tests.cs" />
     <Compile Include="Code\lc1442Tests.cs" />
     <Compile Include="Code\lc1738Tests.cs" />
