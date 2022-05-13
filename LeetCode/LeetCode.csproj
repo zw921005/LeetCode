@@ -142,6 +142,7 @@
     <Compile Include="Code\lc0118.cs" />
     <Compile Include="Code\lc0832.cs" />
     <Compile Include="Code\lc0833.cs" />
+    <Compile Include="mianshi\lc01_05.cs" />
     <Compile Include="mianshi\lc16_11.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

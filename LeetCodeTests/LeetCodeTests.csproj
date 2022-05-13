@@ -85,6 +85,7 @@
     <Compile Include="Code\lc1025Tests.cs" />
     <Compile Include="Code\lc1442Tests.cs" />
     <Compile Include="Code\lc1738Tests.cs" />
+    <Compile Include="mianshi\lc01_05Tests.cs" />
     <Compile Include="mianshi\lc16_11Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\FastSortTests.cs" />
